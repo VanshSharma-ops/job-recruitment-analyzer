@@ -1,0 +1,934 @@
+skills:
+- canonical: Python
+  category: Programming Languages
+  aliases:
+  - python
+  - python3
+  - py
+- canonical: Java
+  category: Programming Languages
+  aliases:
+  - java
+  - core java
+  - java 8
+  - java 11
+  - java 17
+- canonical: JavaScript
+  category: Programming Languages
+  aliases:
+  - javascript
+  - js
+  - es6
+  - ecmascript
+- canonical: TypeScript
+  category: Programming Languages
+  aliases:
+  - typescript
+  - ts
+- canonical: C++
+  category: Programming Languages
+  aliases:
+  - c++
+  - cpp
+- canonical: C
+  category: Programming Languages
+  aliases:
+  - c language
+  - ansi c
+  - c programming
+- canonical: C#
+  category: Programming Languages
+  aliases:
+  - c#
+  - c-sharp
+  - csharp
+- canonical: Go
+  category: Programming Languages
+  aliases:
+  - go
+  - golang
+  case_sensitive_aliases:
+  - Go
+- canonical: Rust
+  category: Programming Languages
+  aliases:
+  - rust
+  - rustlang
+- canonical: Ruby
+  category: Programming Languages
+  aliases:
+  - ruby
+- canonical: PHP
+  category: Programming Languages
+  aliases:
+  - php
+  - php7
+  - php8
+- canonical: Kotlin
+  category: Programming Languages
+  aliases:
+  - kotlin
+- canonical: Swift
+  category: Programming Languages
+  aliases:
+  - swift
+  - swift5
+- canonical: Scala
+  category: Programming Languages
+  aliases:
+  - scala
+- canonical: Dart
+  category: Programming Languages
+  aliases:
+  - dart
+- canonical: R
+  category: Programming Languages
+  aliases:
+  - r language
+  - r programming
+  - r-lang
+  case_sensitive_aliases:
+  - R
+- canonical: SQL
+  category: Programming Languages
+  aliases:
+  - sql
+  - structured query language
+  - t-sql
+  - pl/sql
+- canonical: Shell Scripting
+  category: Programming Languages
+  aliases:
+  - shell scripting
+  - shell script
+  - shell
+- canonical: Bash
+  category: Programming Languages
+  aliases:
+  - bash
+  - bash script
+  - bash scripting
+- canonical: HTML
+  category: Programming Languages
+  aliases:
+  - html
+  - html5
+- canonical: CSS
+  category: Programming Languages
+  aliases:
+  - css
+  - css3
+- canonical: Sass
+  category: Programming Languages
+  aliases:
+  - sass
+  - scss
+- canonical: MATLAB
+  category: Programming Languages
+  aliases:
+  - matlab
+- canonical: Solidity
+  category: Programming Languages
+  aliases:
+  - solidity
+- canonical: Perl
+  category: Programming Languages
+  aliases:
+  - perl
+- canonical: Elixir
+  category: Programming Languages
+  aliases:
+  - elixir
+- canonical: FastAPI
+  category: Backend Frameworks
+  aliases:
+  - fastapi
+  - fast-api
+  - fast api
+- canonical: Django
+  category: Backend Frameworks
+  aliases:
+  - django
+  - django rest framework
+  - drf
+- canonical: Flask
+  category: Backend Frameworks
+  aliases:
+  - flask
+- canonical: Spring Boot
+  category: Backend Frameworks
+  aliases:
+  - spring boot
+  - springboot
+  - spring framework
+  - spring
+- canonical: Node.js
+  category: Backend Frameworks
+  aliases:
+  - node.js
+  - nodejs
+  - node js
+  - node runtime
+- canonical: Express.js
+  category: Backend Frameworks
+  aliases:
+  - express.js
+  - expressjs
+  - express js
+  - express
+- canonical: NestJS
+  category: Backend Frameworks
+  aliases:
+  - nestjs
+  - nest.js
+  - nest js
+- canonical: ASP.NET Core
+  category: Backend Frameworks
+  aliases:
+  - asp.net
+  - asp.net core
+  - dotnet core
+  - .net core
+- canonical: Ruby on Rails
+  category: Backend Frameworks
+  aliases:
+  - ruby on rails
+  - rails
+  - ror
+- canonical: Laravel
+  category: Backend Frameworks
+  aliases:
+  - laravel
+- canonical: Koa
+  category: Backend Frameworks
+  aliases:
+  - koa
+  - koa.js
+  - koajs
+- canonical: Micronaut
+  category: Backend Frameworks
+  aliases:
+  - micronaut
+- canonical: Quarkus
+  category: Backend Frameworks
+  aliases:
+  - quarkus
+- canonical: GraphQL
+  category: Backend Frameworks
+  aliases:
+  - graphql
+  - graph-ql
+- canonical: REST API
+  category: Backend Frameworks
+  aliases:
+  - rest api
+  - restful api
+  - restful apis
+  - rest apis
+  - rest
+- canonical: gRPC
+  category: Backend Frameworks
+  aliases:
+  - grpc
+- canonical: Microservices
+  category: Backend Frameworks
+  aliases:
+  - microservices
+  - microservice architecture
+  - microservice
+  - micro-services
+- canonical: WebSockets
+  category: Backend Frameworks
+  aliases:
+  - websockets
+  - websocket
+- canonical: Celery
+  category: Backend Frameworks
+  aliases:
+  - celery
+- canonical: Apache Kafka
+  category: Backend Frameworks
+  aliases:
+  - apache kafka
+  - kafka
+- canonical: RabbitMQ
+  category: Backend Frameworks
+  aliases:
+  - rabbitmq
+  - rabbit mq
+- canonical: React
+  category: Frontend Frameworks
+  aliases:
+  - react
+  - react.js
+  - reactjs
+- canonical: Next.js
+  category: Frontend Frameworks
+  aliases:
+  - next.js
+  - nextjs
+  - next js
+- canonical: Vue.js
+  category: Frontend Frameworks
+  aliases:
+  - vue.js
+  - vuejs
+  - vue
+  - vue 3
+- canonical: Nuxt.js
+  category: Frontend Frameworks
+  aliases:
+  - nuxt.js
+  - nuxtjs
+  - nuxt
+- canonical: Angular
+  category: Frontend Frameworks
+  aliases:
+  - angular
+  - angularjs
+  - angular 2+
+- canonical: Svelte
+  category: Frontend Frameworks
+  aliases:
+  - svelte
+  - sveltekit
+- canonical: Tailwind CSS
+  category: Frontend Frameworks
+  aliases:
+  - tailwind css
+  - tailwind
+  - tailwindcss
+- canonical: Redux
+  category: Frontend Frameworks
+  aliases:
+  - redux
+  - redux toolkit
+  - rtk
+- canonical: Zustand
+  category: Frontend Frameworks
+  aliases:
+  - zustand
+- canonical: Bootstrap
+  category: Frontend Frameworks
+  aliases:
+  - bootstrap
+  - bootstrap 5
+- canonical: Material UI
+  category: Frontend Frameworks
+  aliases:
+  - material ui
+  - mui
+  - material-ui
+- canonical: Webpack
+  category: Frontend Frameworks
+  aliases:
+  - webpack
+- canonical: Vite
+  category: Frontend Frameworks
+  aliases:
+  - vite
+  - vite.js
+  - vitejs
+- canonical: Three.js
+  category: Frontend Frameworks
+  aliases:
+  - three.js
+  - threejs
+- canonical: React Native
+  category: Frontend Frameworks
+  aliases:
+  - react native
+  - react-native
+- canonical: Flutter
+  category: Frontend Frameworks
+  aliases:
+  - flutter
+- canonical: Electron
+  category: Frontend Frameworks
+  aliases:
+  - electron
+  - electron.js
+- canonical: PostgreSQL
+  category: Databases
+  aliases:
+  - postgresql
+  - postgres
+  - psql
+- canonical: MySQL
+  category: Databases
+  aliases:
+  - mysql
+- canonical: MongoDB
+  category: Databases
+  aliases:
+  - mongodb
+  - mongo
+- canonical: Redis
+  category: Databases
+  aliases:
+  - redis
+- canonical: Elasticsearch
+  category: Databases
+  aliases:
+  - elasticsearch
+  - elastic search
+  - elk
+- canonical: SQLite
+  category: Databases
+  aliases:
+  - sqlite
+  - sqlite3
+- canonical: Cassandra
+  category: Databases
+  aliases:
+  - cassandra
+  - apache cassandra
+- canonical: DynamoDB
+  category: Databases
+  aliases:
+  - dynamodb
+  - amazon dynamodb
+- canonical: Oracle DB
+  category: Databases
+  aliases:
+  - oracle db
+  - oracle database
+  - oracle sql
+- canonical: Microsoft SQL Server
+  category: Databases
+  aliases:
+  - sql server
+  - mssql
+  - ms sql server
+- canonical: Neo4j
+  category: Databases
+  aliases:
+  - neo4j
+- canonical: Couchbase
+  category: Databases
+  aliases:
+  - couchbase
+- canonical: Supabase
+  category: Databases
+  aliases:
+  - supabase
+- canonical: Firebase
+  category: Databases
+  aliases:
+  - firebase
+  - firestore
+  - firebase real-time database
+- canonical: Snowflake
+  category: Databases
+  aliases:
+  - snowflake
+- canonical: BigQuery
+  category: Databases
+  aliases:
+  - bigquery
+  - google bigquery
+- canonical: ClickHouse
+  category: Databases
+  aliases:
+  - clickhouse
+- canonical: Memcached
+  category: Databases
+  aliases:
+  - memcached
+- canonical: AWS
+  category: Cloud & DevOps
+  aliases:
+  - aws
+  - amazon web services
+- canonical: Azure
+  category: Cloud & DevOps
+  aliases:
+  - azure
+  - microsoft azure
+- canonical: Google Cloud
+  category: Cloud & DevOps
+  aliases:
+  - google cloud
+  - gcp
+  - google cloud platform
+- canonical: Docker
+  category: Cloud & DevOps
+  aliases:
+  - docker
+  - containerization
+  - containers
+- canonical: Kubernetes
+  category: Cloud & DevOps
+  aliases:
+  - kubernetes
+  - k8s
+- canonical: Terraform
+  category: Cloud & DevOps
+  aliases:
+  - terraform
+  - tf
+- canonical: Ansible
+  category: Cloud & DevOps
+  aliases:
+  - ansible
+- canonical: Jenkins
+  category: Cloud & DevOps
+  aliases:
+  - jenkins
+- canonical: GitHub Actions
+  category: Cloud & DevOps
+  aliases:
+  - github actions
+  - gh actions
+- canonical: GitLab CI
+  category: Cloud & DevOps
+  aliases:
+  - gitlab ci
+  - gitlab ci/cd
+- canonical: CI/CD
+  category: Cloud & DevOps
+  aliases:
+  - ci/cd
+  - continuous integration
+  - continuous deployment
+  - cicd
+- canonical: Helm
+  category: Cloud & DevOps
+  aliases:
+  - helm
+- canonical: Linux
+  category: Cloud & DevOps
+  aliases:
+  - linux
+  - ubuntu
+  - centos
+  - debian
+  - rhel
+- canonical: Nginx
+  category: Cloud & DevOps
+  aliases:
+  - nginx
+- canonical: Apache
+  category: Cloud & DevOps
+  aliases:
+  - apache web server
+  - apache http server
+- canonical: Prometheus
+  category: Cloud & DevOps
+  aliases:
+  - prometheus
+- canonical: Grafana
+  category: Cloud & DevOps
+  aliases:
+  - grafana
+- canonical: OpenTelemetry
+  category: Cloud & DevOps
+  aliases:
+  - opentelemetry
+  - otel
+- canonical: Datadog
+  category: Cloud & DevOps
+  aliases:
+  - datadog
+- canonical: Serverless
+  category: Cloud & DevOps
+  aliases:
+  - serverless
+  - aws lambda
+  - lambda functions
+- canonical: Cloudflare
+  category: Cloud & DevOps
+  aliases:
+  - cloudflare
+- canonical: ArgoCD
+  category: Cloud & DevOps
+  aliases:
+  - argocd
+  - argo cd
+- canonical: Puppet
+  category: Cloud & DevOps
+  aliases:
+  - puppet
+- canonical: Machine Learning
+  category: Data & AI
+  aliases:
+  - machine learning
+  - ml
+- canonical: Deep Learning
+  category: Data & AI
+  aliases:
+  - deep learning
+  - dl
+- canonical: NLP
+  category: Data & AI
+  aliases:
+  - nlp
+  - natural language processing
+- canonical: Computer Vision
+  category: Data & AI
+  aliases:
+  - computer vision
+  - cv
+  - object detection
+  - image segmentation
+- canonical: Large Language Models
+  category: Data & AI
+  aliases:
+  - large language models
+  - llms
+  - llm
+  - generative ai
+  - gen ai
+- canonical: PyTorch
+  category: Data & AI
+  aliases:
+  - pytorch
+- canonical: TensorFlow
+  category: Data & AI
+  aliases:
+  - tensorflow
+  - tf
+- canonical: Keras
+  category: Data & AI
+  aliases:
+  - keras
+- canonical: Scikit-learn
+  category: Data & AI
+  aliases:
+  - scikit-learn
+  - sklearn
+- canonical: Pandas
+  category: Data & AI
+  aliases:
+  - pandas
+- canonical: NumPy
+  category: Data & AI
+  aliases:
+  - numpy
+- canonical: SciPy
+  category: Data & AI
+  aliases:
+  - scipy
+- canonical: spaCy
+  category: Data & AI
+  aliases:
+  - spacy
+- canonical: NLTK
+  category: Data & AI
+  aliases:
+  - nltk
+- canonical: Hugging Face
+  category: Data & AI
+  aliases:
+  - hugging face
+  - huggingface
+  - transformers
+- canonical: LangChain
+  category: Data & AI
+  aliases:
+  - langchain
+- canonical: LlamaIndex
+  category: Data & AI
+  aliases:
+  - llamaindex
+  - llama-index
+- canonical: OpenCV
+  category: Data & AI
+  aliases:
+  - opencv
+  - open-cv
+- canonical: Apache Spark
+  category: Data & AI
+  aliases:
+  - apache spark
+  - spark
+  - pyspark
+- canonical: Apache Airflow
+  category: Data & AI
+  aliases:
+  - apache airflow
+  - airflow
+- canonical: dbt
+  category: Data & AI
+  aliases:
+  - dbt
+- canonical: Hadoop
+  category: Data & AI
+  aliases:
+  - hadoop
+  - apache hadoop
+  - mapreduce
+- canonical: Databricks
+  category: Data & AI
+  aliases:
+  - databricks
+- canonical: Tableau
+  category: Data & AI
+  aliases:
+  - tableau
+- canonical: Power BI
+  category: Data & AI
+  aliases:
+  - power bi
+  - powerbi
+- canonical: Apache Flink
+  category: Data & AI
+  aliases:
+  - apache flink
+  - flink
+- canonical: Kafka Streams
+  category: Data & AI
+  aliases:
+  - kafka streams
+- canonical: ETL
+  category: Data & AI
+  aliases:
+  - etl
+  - extract transform load
+  - data pipeline
+  - data pipelines
+- canonical: Data Warehousing
+  category: Data & AI
+  aliases:
+  - data warehousing
+  - data warehouse
+  - dwh
+- canonical: Vector Databases
+  category: Data & AI
+  aliases:
+  - vector databases
+  - vector db
+  - pinecone
+  - weaviate
+  - chromadb
+  - qdrant
+  - milvus
+- canonical: RAG
+  category: Data & AI
+  aliases:
+  - rag
+  - retrieval-augmented generation
+  - retrieval augmented generation
+- canonical: Pytest
+  category: Testing & QA
+  aliases:
+  - pytest
+- canonical: Jest
+  category: Testing & QA
+  aliases:
+  - jest
+- canonical: Cypress
+  category: Testing & QA
+  aliases:
+  - cypress
+- canonical: Selenium
+  category: Testing & QA
+  aliases:
+  - selenium
+  - selenium webdriver
+- canonical: Playwright
+  category: Testing & QA
+  aliases:
+  - playwright
+- canonical: Mocha
+  category: Testing & QA
+  aliases:
+  - mocha
+- canonical: JUnit
+  category: Testing & QA
+  aliases:
+  - junit
+  - junit 5
+- canonical: Postman
+  category: Testing & QA
+  aliases:
+  - postman
+- canonical: SonarQube
+  category: Testing & QA
+  aliases:
+  - sonarqube
+- canonical: TestNG
+  category: Testing & QA
+  aliases:
+  - testng
+- canonical: Appium
+  category: Testing & QA
+  aliases:
+  - appium
+- canonical: JMeter
+  category: Testing & QA
+  aliases:
+  - jmeter
+  - apache jmeter
+- canonical: Unit Testing
+  category: Testing & QA
+  aliases:
+  - unit testing
+  - unit tests
+- canonical: Integration Testing
+  category: Testing & QA
+  aliases:
+  - integration testing
+  - integration tests
+- canonical: Git
+  category: Practices & Architecture
+  aliases:
+  - git
+  - version control
+- canonical: GitHub
+  category: Practices & Architecture
+  aliases:
+  - github
+- canonical: GitLab
+  category: Practices & Architecture
+  aliases:
+  - gitlab
+- canonical: Bitbucket
+  category: Practices & Architecture
+  aliases:
+  - bitbucket
+- canonical: Agile
+  category: Practices & Architecture
+  aliases:
+  - agile
+  - agile methodology
+- canonical: Scrum
+  category: Practices & Architecture
+  aliases:
+  - scrum
+  - sprint planning
+- canonical: Jira
+  category: Practices & Architecture
+  aliases:
+  - jira
+- canonical: System Design
+  category: Practices & Architecture
+  aliases:
+  - system design
+  - high level design
+  - low level design
+  - hld
+  - lld
+- canonical: Data Structures & Algorithms
+  category: Practices & Architecture
+  aliases:
+  - data structures
+  - algorithms
+  - dsa
+- canonical: Object-Oriented Programming
+  category: Practices & Architecture
+  aliases:
+  - oop
+  - object-oriented programming
+  - object oriented programming
+  - oops
+- canonical: Design Patterns
+  category: Practices & Architecture
+  aliases:
+  - design patterns
+  - software patterns
+- canonical: Test-Driven Development
+  category: Practices & Architecture
+  aliases:
+  - test-driven development
+  - tdd
+- canonical: Domain-Driven Design
+  category: Practices & Architecture
+  aliases:
+  - domain-driven design
+  - ddd
+- canonical: Event-Driven Architecture
+  category: Practices & Architecture
+  aliases:
+  - event-driven architecture
+  - event driven architecture
+  - eda
+- canonical: Security & OWASP
+  category: Practices & Architecture
+  aliases:
+  - owasp
+  - web security
+  - application security
+  - appsec
+- canonical: OAuth
+  category: Practices & Architecture
+  aliases:
+  - oauth
+  - oauth2
+  - jwt
+  - json web tokens
+- canonical: Android Development
+  category: Mobile Development
+  aliases:
+  - android development
+  - android sdk
+  - android
+- canonical: iOS Development
+  category: Mobile Development
+  aliases:
+  - ios development
+  - ios sdk
+  - ios
+- canonical: SwiftUI
+  category: Mobile Development
+  aliases:
+  - swiftui
+- canonical: Jetpack Compose
+  category: Mobile Development
+  aliases:
+  - jetpack compose
+  - compose
+- canonical: AWS S3
+  category: Cloud & DevOps
+  aliases:
+  - s3
+  - amazon s3
+  - aws s3
+- canonical: AWS EC2
+  category: Cloud & DevOps
+  aliases:
+  - ec2
+  - amazon ec2
+  - aws ec2
+- canonical: AWS Lambda
+  category: Cloud & DevOps
+  aliases:
+  - aws lambda
+  - lambda
+- canonical: AWS RDS
+  category: Cloud & DevOps
+  aliases:
+  - rds
+  - amazon rds
+  - aws rds
+- canonical: Azure DevOps
+  category: Cloud & DevOps
+  aliases:
+  - azure devops
+- canonical: PySpark
+  category: Data & AI
+  aliases:
+  - pyspark
+- canonical: Hive
+  category: Data & AI
+  aliases:
+  - apache hive
+  - hive
+- canonical: Presto
+  category: Data & AI
+  aliases:
+  - presto
+  - trino
+- canonical: Webpack/Vite
+  category: Frontend Frameworks
+  aliases:
+  - bundler
+  - frontend tooling
+- canonical: Storybook
+  category: Frontend Frameworks
+  aliases:
+  - storybook
+- canonical: Figma
+  category: Practices & Architecture
+  aliases:
+  - figma
