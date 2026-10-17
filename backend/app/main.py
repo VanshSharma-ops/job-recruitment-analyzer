@@ -44,6 +44,11 @@ app.include_router(locations.router, prefix="/api")
 app.include_router(companies.router, prefix="/api")
 app.include_router(gap.router, prefix="/api")
 
+@app.get("/", include_in_schema=False)
+def root():
+    from fastapi.responses import RedirectResponse
+    return RedirectResponse(url="/docs")
+
 @app.get("/api/health", tags=["system"])
 def health_check():
     return {
