@@ -3,6 +3,7 @@
  * Main application container for Job Recruitment Analyzer.
  * Synchronizes filters with URL search params, manages skills profile state,
  * and coordinates data loading from the FastAPI backend.
+ * Build version: 1.0.1 (online deployment ready)
  */
 
 import React, { useEffect, useState, useCallback } from 'react'
